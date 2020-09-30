@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+}
+
+body{
+	background: #ffbb0e;
+	color: #ffffff;
+	font-family: 'Nunito', sans-serif;
+}
+
+.header{
+	background: #00ff2a;
+	color: #f0940a;
+	display: flex;
+	justify-content: space-between;
+	height: 90px;
+	
+}
+
+.header a{
+	color: #f97706;
+	text-decoration: none;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+	cursor: pointer;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+}	 
+
+.header li{
+	height: inherit;
+}
+
+.logo img{
+	width: 100px;
+}
+
+.menu{
+	height: inherit;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	height: inherit;
+}
+
+.principal{
+	background-image: url('fondoEspacio.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 100px; 
+}
+
+.principal img{ 
+	width: 300px;
+}
+
+.principal button{
+	width: 250px;
+	height: 40px;
+	background-color: #cc5f00;
+	border-radius: 24px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+}
+
+h1 strong{
+	color: #e99311;
+}
+
+.somos{
+	background: #ff8d01;
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+}
+.tercero{
+color: #cc5f00;
+background-color: #ff8d01;
+
+}	
+.aplicar{
+	height: 500px;
+	background-color: #f0850a;
+	color: aqua;
+	display: flex;
+}
+.aplicar-detalles{	
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	height: inherit;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 30px;
+	text-align: center;
+}
+.aplicar-detalles img{
+	height: 90%;
+}
