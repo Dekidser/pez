@@ -34,7 +34,7 @@ body{
 }
 
 .logo img{
-	width: 100px;
+	width: 80px;
 }
 
 .menu{
@@ -50,7 +50,7 @@ ul{
 }
 
 .principal{
-	background-image: url('fondoEspacio.png');
+	background-image: url('../img/fondoMar2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -88,8 +88,10 @@ h1 strong{
 	font-size: 20px;
 }
 .tercero{
-color: #cc5f00;
-background-color: #ff8d01;
+	color: #cc5f00;
+	background-color: #ff8d01;
+	text-align: right;
+	padding: 20px 20px;
 
 }	
 .aplicar{
@@ -97,6 +99,8 @@ background-color: #ff8d01;
 	background-color: #f0850a;
 	color: aqua;
 	display: flex;
+	justify-content: space-around;
+	margin: 0px;
 }
 .aplicar-detalles{	
 	width: 50%;
@@ -111,3 +115,40 @@ background-color: #ff8d01;
 .aplicar-detalles img{
 	height: 90%;
 }
+
+.container1{
+	display: flex;
+	background: white;
+	color: black;
+	text-align: center;
+	justify-content: space-around;
+	padding: 20px;
+}
+.row1-contacto{
+	display: flex;
+	margin: 10px;
+}
+
+.row1-contacto img{
+	width: 35px;
+	height: 25px;
+}
+
+.row2-contacto{
+	display: flex;
+}
+
+.row2-contacto img{
+	width: 35px;
+	height: 25px;
+}
+
+.row1-redes img{
+	width: 35px;
+	height: 25px;
+}
+
+.container2{
+	background: rgb(0, 132, 255)
+}
+
